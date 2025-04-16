@@ -25,7 +25,13 @@ FastAPI is a modern, fast (high-performance) web framework for building APIs wit
 
 ## 🛠 How to Run
 
-1. Install FastAPI and Uvicorn:
-```bash
-pip install fastapi uvicorn
-```
+1. Install FastAPI and Uvicorn, navigate to a project folder (e.g., `01_hello_world`), and run the app:
+   ```bash
+   pip install fastapi uvicorn
+   uvicorn main:app --reload
+   ```
+2. Open your browser and visit:
+
+🚀 http://127.0.0.1:8000 → View API response
+
+📘 http://127.0.0.1:8000/docs → Swagger interactive API docs
