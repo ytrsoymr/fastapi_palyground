@@ -32,6 +32,5 @@ FastAPI is a modern, fast (high-performance) web framework for building APIs wit
    ```
 2. Open your browser and visit:
 
-🚀 http://127.0.0.1:8000 → View API response
-
-📘 http://127.0.0.1:8000/docs → Swagger interactive API docs
+  --  http://127.0.0.1:8000 → View API response
+  --  http://127.0.0.1:8000/docs → Swagger interactive API docs
